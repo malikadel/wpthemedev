@@ -1,0 +1,11 @@
+2018-10-15T08:54:31+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function register_nav_menu(), 1 passed in /var/www/wordpress/wp-content/themes/adeelstheme/functions.php on line 5 and exactly 2 expected in /var/www/wordpress/wp-includes/nav-menu.php:126
+Stack trace:
+#0 /var/www/wordpress/wp-content/themes/adeelstheme/functions.php(5): register_nav_menu(Array)
+#1 /var/www/wordpress/wp-settings.php(426): include('/var/www/wordpr...')
+#2 /var/www/wordpress/wp-config.php(89): require_once('/var/www/wordpr...')
+#3 /var/www/wordpress/wp-load.php(37): require_once('/var/www/wordpr...')
+#4 /var/www/wordpress/wp-blog-header.php(13): require_once('/var/www/wordpr...')
+#5 /var/www/wordpress/index.php(17): require('/var/www/wordpr...')
+#6 {main}
+  thrown
+
